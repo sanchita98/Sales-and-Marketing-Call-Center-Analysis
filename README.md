@@ -43,7 +43,8 @@ Data cleaning, pivot tables,Index , Match , xlookup, OFFset, Conditional Formatt
 
 
 ## 📸 Dashboard Preview
-![Call Center Dashboard](images/call_center_dashboard.png)
+![image](https://github.com/user-attachments/assets/c9760bde-2bc0-4ff3-ab3c-e26333b4988b)
+
 
 ## 📊 Dashboard Components and Key Insights
 
