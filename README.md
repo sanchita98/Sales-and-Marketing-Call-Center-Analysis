@@ -1,123 +1,168 @@
-
 # 📞 Sales and Marketing Call Center Performance Dashboard – Excel Data Analysis Project
 
 ## 🎯 Objective
-
 The objective of this project is to analyze Sales and Marketing call center performance using a dataset of 200,000 call records and derive actionable insights by visualizing KPIs, agent efficiency, regional activity, and customer behavior using Excel dashboards.
-
----
 
 ## 📁 Dataset Overview
 
-- **Total Records**: 200,000 rows
-- **Columns**: 20 columns
-- **File Type**: Excel
-- **Contains**: Call data, agents, outcomes, duration, customer ratings, region, and time.
-
----
+- **Total Records**: 200,000 rows  
+- **Columns**: 20 columns  
+- **File Type**: Excel (.xlsx)  
+- **Contains**: Call data, agent names, outcomes, durations, customer ratings, regions, timestamps  and many more.
 
 ## 🛠️ Tools Used
 
-- **Microsoft Excel**: Data cleaning, analysis, and dashboard creation
+- **Microsoft Excel**: 
 
----
+Data cleaning, pivot tables,Index , Match , xlookup, OFFset, Conditional Formatting, slicers, dynamic charts and dashboard creation
 
-## 🔍 Data Analysis Steps
+🔍 Data Analysis Workflow
 
 1. Data Cleaning
-2. Filtering and transforming values
-3. Creating pivot tables for aggregation
-4. Designing dashboards with slicers and charts
-5. Deriving key insights
 
----
+* Removed blanks and duplicates
+
+* Standardized formats (e.g., datetime, agent names)
+
+2. Data Transformation
+
+* Created calculated columns (e.g., Call Outcome %, Average Duration)
+
+* Grouped call times by Morning, Afternoon, Evening
+
+3. Dashboard Development
+
+* Dynamic filters for agents and time slots
+
+* Interactive charts for trends, agent performance, and regional data
+
+4. Insight Generation
+
+* Analyzed abandonment reasons, customer distribution, and product success rates
+
+
 
 ## 📸 Dashboard Preview
-
- 
-![image](https://github.com/user-attachments/assets/0bf41e97-20c7-4f21-a948-d7c085274ca9)
-
----
+![Call Center Dashboard](images/call_center_dashboard.png)
 
 ## 📊 Dashboard Components and Key Insights
 
-### 1. **Call Center KPIs**
+### 1. 📞 Call Center KPIs
 - **Total Calls**: 199,999  
 - **Successful Calls**: 83,518  
 - **Failed Calls**: 71,837  
 - **Abandoned Calls**: 44,644  
 
-💡 *Insight*: Only ~42% of calls are successful, with a large portion being abandoned or failed. Indicates operational bottlenecks.
+💡 *Insight*:
 
----
+🔍 Only ~42% of total calls were successful. The remaining majority either failed or were abandoned—indicating system inefficiencies or customer dissatisfaction.
 
-### 2. **Top Call Agents by Volume**
-- Top 5 agents handle nearly 70% of the calls.
-💡 *Insight*: Workload is not evenly distributed. Risk of burnout or overdependence on key performers.
+### 2. 🧑‍💼 Top Call Agents by Volume
+- Top 5 agents handle nearly 70% of all calls.
 
----
+💡 *Insight*: 
 
-### 3. **Agent Performance: Zoe Newman**
-- **Success Rate**: 19.54%  
-- **Average Rating**: 4.2  
-- **Average Duration**: 15.6 mins  
-💡 *Insight*: Long calls but low success rate may indicate need for training or scripting improvement.
+🔍 High workload concentration may lead to burnout and operational risk.
 
----
+### 3. 📈 Agent Performance: Zoe Newman
+- **Success Rate**: 19.54%
+- **Average Rating**: 4.2
+- **Average Duration**: 15.6 minutes
 
-### 4. **Abandoned Call Reasons**
-- Highest: **Technical Issues**
-💡 *Insight*: Infrastructure-related issues are directly impacting call performance and customer experience.
+💡 *Insight*: 
 
----
+🔍 Low success rate with long call times may indicate a need for training or improved scripting.
 
-### 5. **Monthly Trends**
-- Zoe’s peak: **764 calls in December**
-💡 *Insight*: Seasonal spike; useful for resource planning.
+### 4. 🔧 Reasons for Abandoned Calls
+- Most common: **Technical Issues**
+* Long Wait Time
+*Customer Hung Up
 
----
+💡 *Insight*: 
 
-### 6. **Time-of-Day Filter**
-- Calls distributed across Morning, Afternoon, and Evening
-💡 *Insight*: Helps analyze performance by time slot for agent scheduling.
+🔍 Despite longer call durations, the success rate is low, indicating possible issues with training, communication, or system support.
 
----
+### 5. 📅 Monthly Call Trends
 
-### 7. **Gender-wise Distribution**
-- **Male**: 69.8%  
-- **Female**: 30.2%  
-💡 *Insight*: Predominantly male audience – consider balancing outreach campaigns.
+* Highest Calls: December (764)
 
----
+* Lowest Calls: June (625)
 
-### 8. **Region-wise Analysis**
-- Top States: Texas, California, Florida
-💡 *Insight*: Marketing and service optimization can be focused on high-volume states.
+💡 *Insight*: 
 
----
+🔍 Seasonal variations observed. Useful for planning staffing and campaigns.
 
-### 9. **Products Discussed and Their Outcomes**
-- High failure rates in popular products like Internet Packages and Loans.
-💡 *Insight*: Reassess approach for these products – could involve offer clarity, training, or follow-up improvements.
 
----
+### 6. ⏰ Time-of-Day Performance Filter
+
+* Afternoon shows the highest call traffic, followed by Evening and Morning
+
+💡 *Insight*: 
+
+🔍 Helps optimize shift scheduling and understand peak traffic periods.
+
+### 7. 👨‍👩‍👧 Gender-wise Distribution
+
+- **Male Callers**: 69.8%
+- **Female Callers**: 30.2%
+
+💡 *Insight*: 
+
+🔍 Predominantly male caller base – marketing strategies may be adjusted accordingly.
+
+### 8. 🌎 Region-wise Call Analysis
+
+- Top states by volume: 
+
+* Texas (1,016)
+
+* California (957)
+
+* Florida (919)
+
+💡 *Insight*: 
+
+🔍 These regions represent core markets and should be prioritized in marketing and service improvement plans.
+
+### 9. 📦 Product-wise Discussion Outcome
+
+- Internet and Loan packages have high failure rates.
+
+💡 *Insight*: 
+
+| Product           | Successful Calls | Failed Calls |
+| ----------------- | ---------------- | ------------ |
+| Travel Packages   | 182              | 539          |
+| Loans             | 468              | 1,343        |
+| Internet Packages | 568              | 1,293        |
+| Insurance         | 74               | 721          |
+| Electronics       | 271              | 693          |
+
+
+🔍 High failure rates for Loans and Internet Packages suggest a need to reassess sales strategies or product clarity.
 
 ## ✅ Conclusion & Outcome
 
-The analysis highlights key performance challenges in the call center including:
-- High abandonment and failure rates
-- Overload on a few agents
-- Regional disparities in call volume
-- Low product conversion success
+This dashboard delivers a clear and interactive summary of the call center's operations. It helps stakeholders:
 
-📌 **Recommendations**:
-- Train underperforming agents
-- Fix technical issues causing abandonment
-- Improve scripts and offers for top-failed products
-- Reallocate agent workload
-- Launch targeted campaigns based on region and time
+* Identify underperforming agents
+
+* Understand peak activity periods
+
+* Detect technical challenges affecting service
+
+* Evaluate product performance
+
+* Analyze customer engagement by time, location, and gender
+
+## 📌 Recommendations
+
+- Provide additional training for agents with low success rates
+- Resolve technical issues causing high abandonment
+- Rework product pitches for high-failure categories
+- Balance agent workload more effectively
+- Leverage time and region filters for better strategic planning
 
 ---
 
-
-
+> ⚡ **Note**: The dashboard is fully interactive using Excel slicers and can be filtered by time of day and agent to dynamically update KPIs and visuals.
