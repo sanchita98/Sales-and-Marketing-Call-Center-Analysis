@@ -156,13 +156,22 @@ This dashboard delivers a clear and interactive summary of the call center's ope
 
 * Analyze customer engagement by time, location, and gender
 
+* Improve operational efficiency
+
+* Monitor agent performance in real time
+
+* Enhance customer experience
+
+* Identify bottlenecks and opportunities through data
+
+  
 ## 📌 Recommendations
 
 - Provide additional training for agents with low success rates
 - Resolve technical issues causing high abandonment
 - Rework product pitches for high-failure categories
 - Balance agent workload more effectively
-- Leverage time and region filters for better strategic planning
+
 
 ---
 
